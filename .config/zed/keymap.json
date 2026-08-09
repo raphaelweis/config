@@ -88,5 +88,59 @@
     "unbind": {
       "ctrl-shift-t": "pane::ReopenClosedItem"
     }
+  },
+  {
+    "context": "Workspace",
+    "unbind": {
+      "ctrl-p": "file_finder::Toggle"
+    }
+  },
+  {
+    "context": "FileFinder || FileFinder > Picker > Editor",
+    "unbind": {
+      "ctrl-p": "file_finder::Toggle"
+    }
+  },
+  {
+    "context": "ProjectPanel",
+    "unbind": {
+      "ctrl-n": "project_panel::NewFile"
+    }
+  },
+  {
+    "context": "Workspace",
+    "unbind": {
+      "ctrl-n": "workspace::NewFile"
+    }
+  },
+  {
+    "context": "Welcome",
+    "unbind": {
+      "ctrl-n": "workspace::NewFile"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "alt-n": "workspace::NewFile"
+    }
+  },
+  {
+    "context": "Workspace",
+    "unbind": {
+      "new": "workspace::NewFile"
+    }
+  },
+  {
+    "context": "!SettingsWindow",
+    "bindings": {
+      "alt-,": "zed::OpenSettings"
+    }
+  },
+  {
+    "context": "!SettingsWindow",
+    "unbind": {
+      "ctrl-,": "zed::OpenSettings"
+    }
   }
 ]
