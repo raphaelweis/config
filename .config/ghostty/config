@@ -5,24 +5,25 @@ cursor-invert-fg-bg = true
 cursor-style = block
 cursor-style-blink = false
 font-family = monospace
-font-size = 14
+font-size = 9
 gtk-single-instance = true
+gtk-titlebar-hide-when-maximized = true
 keybind = ctrl+enter=unbind
 keybind = performable:alt+c=copy_to_clipboard
 keybind = performable:alt+v=paste_from_clipboard
 shell-integration-features = no-cursor
-theme = Gruvbox Dark Hard
+theme = Gruvbox Light Hard
 window-padding-x = 5
 window-padding-y = 5
 font-feature = -calt
 notify-on-command-finish = always
 
-keybind = ctrl+alt+h=goto_split:left
-keybind = ctrl+alt+j=goto_split:down
-keybind = ctrl+alt+k=goto_split:up
-keybind = ctrl+alt+l=goto_split:right
-keybind = ctrl+cmd+h=goto_split:left
-keybind = ctrl+cmd+j=goto_split:down
-keybind = ctrl+cmd+k=goto_split:up
-keybind = ctrl+cmd+l=goto_split:right
+# keybind = ctrl+alt+h=goto_split:left
+# keybind = ctrl+alt+j=goto_split:down
+# keybind = ctrl+alt+k=goto_split:up
+# keybind = ctrl+alt+l=goto_split:right
+# keybind = ctrl+cmd+h=goto_split:left
+# keybind = ctrl+cmd+j=goto_split:down
+# keybind = ctrl+cmd+k=goto_split:up
+# keybind = ctrl+cmd+l=goto_split:right
 

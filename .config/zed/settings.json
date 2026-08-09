@@ -7,7 +7,13 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "ui_font_weight": 400.0,
+  "buffer_line_height": "comfortable",
+  "buffer_font_weight": 400.0,
   "terminal": {
+    "font_weight": 400.0,
+    "font_size": 14.0,
+    "font_family": "JetBrains Mono",
     "show_count_badge": false
   },
   "disable_ai": true,
@@ -44,20 +50,24 @@
   "edit_predictions": {
     "mode": "subtle",
   },
-  "buffer_font_family": "JetBrainsMonoNL Nerd Font",
-  "icon_theme": "Material Icon Theme",
+  "buffer_font_family": "JetBrains Mono",
+  "icon_theme": {
+    "mode": "light",
+    "light": "Material Icon Theme",
+    "dark": "Material Icon Theme"
+  },
   "project_panel": {
     "dock": "right",
     "hide_root": true,
   },
   "relative_line_numbers": "enabled",
   "vim_mode": true,
-  "ui_font_size": 16,
-  "buffer_font_size": 15,
+  "ui_font_size": 14.0,
+  "buffer_font_size": 12.0,
   "theme": {
-    "mode": "system",
-    "light": "One Light",
-    "dark": "Gruvbox Dark Hard",
+    "mode": "light",
+    "light": "Gruvbox Light Hard",
+    "dark": "Gruvbox Dark",
   },
   "languages": {
     "JavaScript": {

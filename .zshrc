@@ -20,16 +20,9 @@ unsetopt HIST_FIND_NO_DUPS
 unsetopt HIST_IGNORE_ALL_DUPS
 unsetopt HIST_SAVE_NO_DUPS
 
-alias ta="tmux attach"
-alias ts="tmux-sessionizer"
 alias la="ls -la"
-alias vim="nvim"
 
-if [[ $(uname) == "Darwin" ]]; then
-  export EDITOR="zed --wait"
-else
-  export EDITOR="zeditor --wait"
-fi
+export EDITOR="zed --wait"
 
 export PATH="/opt/homebrew/bin:$HOME/.local/bin:$HOME/.cargo/bin:$PATH"
 
