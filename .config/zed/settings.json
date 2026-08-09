@@ -12,7 +12,7 @@
   "buffer_font_weight": 400.0,
   "terminal": {
     "font_weight": 400.0,
-    "font_size": 14.0,
+    "font_size": 12.0,
     "font_family": "JetBrains Mono",
     "show_count_badge": false
   },
