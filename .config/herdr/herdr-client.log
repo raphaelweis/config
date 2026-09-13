@@ -1,0 +1,18 @@
+2026-09-12T22:03:14.945611Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=45808
+2026-09-12T22:03:14.945711Z  INFO herdr::client: connecting to server path=/home/raph/.config/herdr/herdr-client.sock
+2026-09-12T22:03:15.087042Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-09-13T17:39:58.486123Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=65641
+2026-09-13T17:39:58.486193Z  INFO herdr::client: connecting to server path=/home/raph/.config/herdr/herdr-client.sock
+2026-09-13T17:39:58.544107Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-09-13T17:46:24.453305Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=65641
+2026-09-13T17:46:27.418344Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=66437
+2026-09-13T17:46:27.418382Z  INFO herdr::client: connecting to server path=/home/raph/.config/herdr/herdr-client.sock
+2026-09-13T17:46:27.433413Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-09-13T17:51:24.836811Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=66437
+2026-09-13T17:51:33.577561Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=67004
+2026-09-13T17:51:33.577591Z  INFO herdr::client: connecting to server path=/home/raph/.config/herdr/herdr-client.sock
+2026-09-13T17:51:33.652374Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-09-13T18:20:33.733999Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=67004
+2026-09-13T18:20:36.737972Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=70665
+2026-09-13T18:20:36.737997Z  INFO herdr::client: connecting to server path=/home/raph/.config/herdr/herdr-client.sock
+2026-09-13T18:20:36.763400Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame

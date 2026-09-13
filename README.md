@@ -1,7 +1,17 @@
 # Dotfiles
 
-My dotfiles, managed with stow
+My dotfiles + My NixOS config
+
+## Useful commands
 
 ```
-stow -t ~ .
+stow .config -t ~/.config
+```
+
+```
+herdr server reload-config
+```
+
+```
+sudo nixos-rebuild switch --flake .#<host>
 ```

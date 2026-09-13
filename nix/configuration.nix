@@ -121,6 +121,8 @@
         setopt PROMPT_SUBST
         PROMPT='%F{yellow}%~%f $ '
 
+        bindkey -e
+
         export EDITOR=nvim
       '';
     };
@@ -146,6 +148,12 @@
       stylua
       nixfmt
       lua-language-server
+      ripgrep
+      fd
+      fzf
+      gnumake
+      google-chrome
+      stow
     ];
   };
 
