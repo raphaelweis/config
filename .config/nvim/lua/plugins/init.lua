@@ -24,6 +24,7 @@ vim.pack.add({
 	{ src = "https://github.com/esmuellert/codediff.nvim" },
 	{ src = "https://github.com/stevearc/oil.nvim" },
 	{ src = "https://github.com/nvim-tree/nvim-web-devicons" },
+	{ src = "https://github.com/esmuellert/codediff.nvim" },
 })
 
 require("plugins.colorscheme")
@@ -32,4 +33,5 @@ require("plugins.lsp")
 require("plugins.format")
 require("plugins.completion")
 require("plugins.fuzzy")
+require("plugins.git")
 require("plugins.misc")

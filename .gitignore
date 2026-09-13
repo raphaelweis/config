@@ -1,1 +1,4 @@
 .zed
+*.log
+*.sock
+.config/herdr/*.json

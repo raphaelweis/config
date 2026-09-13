@@ -5,9 +5,6 @@ lualine.setup({})
 local nvim_autopairs = require("nvim-autopairs")
 nvim_autopairs.setup({})
 
-local gitsigns = require("gitsigns")
-gitsigns.setup()
-
 local codediff = require("codediff")
 codediff.setup({
 	diff = {
@@ -16,5 +13,9 @@ codediff.setup({
 })
 
 local oil = require("oil")
-oil.setup()
+oil.setup({
+	view_options = {
+		show_hidden = true,
+	},
+})
 vim.keymap.set("n", "<leader>e", "<CMD>Oil<CR>", { desc = "Open oil pane" })
